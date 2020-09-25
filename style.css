@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #333;
+}
+.container{
+    margin: 40px auto;
+    background: #111;
+    max-width: 650px;
+    min-height: 600px;
+    box-shadow: 1px 0px 14px #bbb;
+    border-radius: 7px;
+}
+nav{
+    margin: 20px auto;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 1px 0px 14px #bbb; */
+}
+nav h3{
+    color: white;
+    font-size: large;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.imageContainer{
+    margin: 40px auto;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    border-radius: 7px;
+}
+.context{
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+.bigBox{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMeText{
+    display: flex;
+    flex-flow: column;
+    color: grey;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+.aboutMe h3, .hobbies h3, .careerGoals h3, .careerAspirations h3{
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    margin-top: 10px;
+    padding: 7px;
+    text-decoration: underline;
+    }
+.hobbies{
+    margin-left: 15px;
+    padding: 7px;
+    color: grey;
+    min-height: 150px;
+    box-shadow: 1px 0px 5px teal;
+    max-width: 250px;
+    flex: 1;
+}
+.careerGoals{
+    margin-right: 15px;
+    padding: 7px;
+    color: grey;
+    min-height: 150px;
+    box-shadow: 1px 0px 5px teal;
+    max-width: 250px;
+    flex: 1;
+}
+.careerAspirations{
+    margin: 15px auto;
+    padding: 7px;
+    color: grey;
+    min-height: 150px;
+    box-shadow: 1px 0px 5px teal;
+    max-width: 250px;
+}
+.hobbies li, .careerGoals li, .careerAspirations li{
+    list-style: none;
+    padding: 3px;
+    margin-top: 5px;
+}
+.circle{
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+    padding: 15px;
+    border: 3px solid white;
+    box-shadow: 1px 0px 17px #111;
+    color: whitesmoke;
+    font-size: larger;
+}
+footer{
+    background-image: url("images/WhatsApp\ Image\ 2020-06-08\ at\ 04.40.54.jpeg");
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+}
